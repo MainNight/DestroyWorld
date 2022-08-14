@@ -48,11 +48,11 @@
     change: 5
 
     # Какая комманда будет выполнятся
-    command: "summon minecraft:lightning_bolt cord"
+    command: "summon minecraft:lightning_bolt %cord"
 
   coming:
   
-    # Передвижение игрока по блокам
+    # Команды, которые выполняются после наступления игрока на зараженный блок (%cord - координаты игрока %player - ник игрока)
     
     # Состояние (По умолчанию: false)
     enable: false
