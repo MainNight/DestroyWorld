@@ -1,5 +1,7 @@
 # DestroyWorld Documentation
   Данный майнкрафт плагин позволит ваам создать свой вирус заражающий блоки!
+  
+  [![Video](https://img.youtube.com/vi/pErfLsTStkw/0.jpg)](https://www.youtube.com/watch?v=pErfLsTStkw)
 
 # Config - Распространие
   settings:
