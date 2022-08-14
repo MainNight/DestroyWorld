@@ -59,7 +59,11 @@
     
     # Какая комманда будет выполнятся
     commands:
-      - "effect player minecraft:darkness 4"
+      - "effect give %player minecraft:darkness 15"
+      - "effect give %player minecraft:nausea 15 30"
+      - "effect give %player minecraft:slowness 15 2"
+      - "summon minecraft:lightning_bolt %cord"
+      - "playsound minecraft:entity.zombie_villager.cure player %player %cord"
 
   # Плагин DiscordAlert (Устанавливается отдельно)
   discord:
